@@ -7,12 +7,21 @@ import {
   MenuLinksItem,
   MenuLinksLink,
 } from "./styled"
+import getThemeColor from "../../utils/getThemeColor"
+
 const MenuLinks = () => (
   <MenuLinksWrapper>
     <MenuLinksList>
       {links.map((link, i) => (
         <MenuLinksItem key={i}>
-          <MenuLinksLink to={link.url} activeClassName="active">
+          <MenuLinksLink
+            cover
+            direction="left"
+            bg={getThemeColor()}
+            duration={0.6}
+            to={link.url}
+            activeClassName="active"
+          >
             {link.label}
           </MenuLinksLink>
         </MenuLinksItem>
