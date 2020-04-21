@@ -7,7 +7,7 @@ module.exports = {
     position: `Desenvolvedor Web`,
     description: `Pai, Desenvolvedor, ciclista, flamenguista e amante do futebol. Abordo temas geralmente ligados a tecnologia e desenvolvimento de software. Seja bem vindo(a)!`,
     author: `@inaldobrandao`,
-    siteUrl: `https://inaldobrandao.com.br`,
+    siteUrl: `https://inaldobrandao.netlify.app`,
   },
   plugins: [
     `gatsby-plugin-transition-link`,
