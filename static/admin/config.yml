@@ -3,7 +3,7 @@ backend:
   repo: inaldobrandao/my-blog
   branch: master
   api_root: https://api.github.com
-  site_domain: http://inaldobrandao.netlify.app
+  site_domain: inaldobrandao.netlify.app
   base_url: https://api.netlify.com
   auth_endpoint: auth
 
