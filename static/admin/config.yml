@@ -2,7 +2,7 @@ backend:
   name: github
   repo: inaldobrandao/my-blog
   branch: master
-  site_domain: https://inaldobrandao.netlify.app/
+  site_domain: https://inaldobrandao.netlify.app
 
 publish_mode: editorial_workflow
 
